@@ -212,10 +212,11 @@ body {
     align-items: center;
     gap: 20px;
     text-align: center;
+    width: 50%;
 }
 
 .landing-page__imagem {
-    width: 50%;
+    width: 100%;
 }
 
 .to-do-list {
@@ -224,10 +225,11 @@ body {
     align-items: center;
     gap: 20px;
     text-align: center;
+    width: 50%;
 }
 
 .to-do-list__imagem {
-    width: 50%;
+    width: 100%;
 }
 
 .link-projeto {
@@ -280,7 +282,7 @@ body {
     }
 
     .conteudo__texto-titulo {
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 
     .conteudo__texto-paragrafo {
@@ -291,6 +293,7 @@ body {
         text-align: justify;
         width: 100%;
         height: auto;
+        gap: 10px;
     }
 
     .conteudo__projetos {
@@ -311,12 +314,22 @@ body {
         padding: 0 5%;
     }
 
+    .landing-page__imagem {
+        width: 100%;
+    }
+
+    .to-do-list__imagem {
+        width: 100%;
+    }
+
     .landing-page {
         text-align: justify;
+        width: 100%;
     }
 
     .to-do-list {
         text-align: justify;
+        width: 100%;
     }
 
     .rodape {
@@ -345,6 +358,15 @@ body {
     .menu-subtitulo {
         display: none;
     }
+
+    .conteudo__texto-destaque {
+        text-align: justify;
+    }
+
+    .conteudo__texto-sobre-mim {
+        text-align: justify;
+    }
+
 
     .rodape {
         font-size: 0.75rem;
