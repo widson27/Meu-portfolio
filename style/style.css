@@ -282,7 +282,7 @@ body {
     }
 
     .conteudo__texto-titulo {
-        font-size: 2.3rem;
+        font-size: 2.2rem;
     }
 
     .conteudo__texto-paragrafo {
@@ -352,15 +352,26 @@ body {
     }
 
     .links__menu {
-        gap: 55px;
+        gap: 45px;
     }
 
     .menu-subtitulo {
         display: none;
     }
 
-    .conteudo__texto-destaque {
+    .conteudo__texto-apresentacao {
+        justify-content: center;
+        width: 100%;
         text-align: justify;
+    }
+
+    .conteudo__texto-titulo {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .conteudo__texto-destaque {
+        justify-content: center;
     }
 
     .conteudo__texto-sobre-mim {
