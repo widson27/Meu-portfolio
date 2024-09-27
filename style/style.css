@@ -185,7 +185,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 90px;
+    gap: 50px;
 }
 
 .subtitulo {
