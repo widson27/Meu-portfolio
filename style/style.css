@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #03001C;
-    --cor-secundaria: #DDE6ED;
-    --cor-terciaria: #30AADD;
-    --cor-hover: #19376D;
-    --cor-link: #5B8FB9;
+
     --cor-hover-borda: blue;
+    --cor-primaria: #000;
+    /* Azul escuro */
+    --cor-secundaria: #DDE6ED;
+    /* Cinza claro */
+    --cor-terciaria: #30AADD;
+    /* Azul vibrante */
+    --cor-hover: #4A7EBB;
+    /* Azul mais claro para hover */
+    --cor-link: #5B8FB9;
+    /* Azul para links */
 
     --font-primaria: 'Krona One', sans-serif;
-    --font-secundaria:'Montserrat', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
 }
 
 * {
     margin: 0;
-   padding: 0;
+    padding: 0;
 }
 
 html {
@@ -31,7 +37,7 @@ body {
     gap: 80px;
 }
 
-.cabecalho{
+.cabecalho {
     background: var(--cor-primaria);
     display: flex;
     position: fixed;
@@ -43,7 +49,7 @@ body {
     z-index: 1000;
 }
 
-.menu{
+.menu {
     padding: 0 2%;
     display: block;
 }
@@ -76,12 +82,12 @@ body {
     cursor: pointer;
 }
 
-.conteudo{
+.conteudo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0% 10%;
+    padding: 0 10%;
 }
 
 .conteudo__textos {
@@ -89,6 +95,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 15px;
+    width: 100%;
 }
 
 .conteudo__texto-apresentacao {
@@ -97,12 +104,11 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 0 5%;
-    align-items: start;
 }
 
 .conteudo__texto-destaque {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 40px;
 }
 
@@ -124,7 +130,7 @@ body {
 
 .botao:hover {
     background-color: var(--cor-hover);
-    border-color: var(--cor-hover-borda);
+    border-color: var(--cor-terciaria);
     cursor: pointer;
 }
 
@@ -138,7 +144,7 @@ body {
 
 .conteudo__texto-paragrafo {
     font-size: 1.75rem;
-    font-family:var(--font-secundaria);
+    font-family: var(--font-secundaria);
     text-align: justify;
 }
 
@@ -147,7 +153,7 @@ body {
     flex-direction: column;
     height: 100vh;
     font-size: 1.9rem;
-    font-family:var(--font-secundaria);
+    font-family: var(--font-secundaria);
     gap: 50px;
 }
 
@@ -178,6 +184,7 @@ body {
     background-color: var(--cor-hover);
     border-color: var(--cor-hover-borda);
     cursor: pointer;
+    color: whitesmoke;
 }
 
 
@@ -207,7 +214,7 @@ body {
 
 .conteudo__projeto-paragrafo {
     font-size: 1.2rem;
-    font-family:var(--font-secundaria);
+    font-family: var(--font-secundaria);
 }
 
 .landing-page {
@@ -241,7 +248,7 @@ body {
     font-weight: 600;
     text-decoration: none;
     color: var(--cor-link);
- }
+}
 
 .cadastro-de-usuarios {
     display: flex;
@@ -253,8 +260,8 @@ body {
 }
 
 .cadastro-de-usuarios__imagem {
-    width: 100%;
-    padding: 20px;
+    width: 324px;
+    padding: 40px;
 }
 
 
@@ -275,6 +282,7 @@ body {
     .menu-subtitulo {
         font-size: 1.2rem;
     }
+
     .link__menu {
         font-size: 1.2rem;
     }
@@ -286,7 +294,7 @@ body {
     .conteudo {
         width: auto;
         gap: 80px;
-        padding: 25% 5%;
+        padding: 20% 5%;
     }
 
     .conteudo__textos {
@@ -295,7 +303,6 @@ body {
     }
 
     .conteudo__texto-destaque {
-        width: 100%;
         flex-direction: column;
         gap: 20px;
     }
@@ -310,7 +317,6 @@ body {
 
     .conteudo__texto-apresentacao {
         text-align: justify;
-        width: 100%;
         height: auto;
         gap: 10px;
     }
@@ -318,7 +324,7 @@ body {
     .conteudo__projetos {
         width: auto;
         flex-direction: column;
-        text-align: justify;    
+        text-align: justify;
     }
 
     .conteudo__texto-sobre-mim {
@@ -342,7 +348,7 @@ body {
     }
 
     .cadastro-de-usuarios__imagem {
-        width: 100%;
+        width: 80%;
     }
 
     .landing-page {
@@ -389,7 +395,6 @@ body {
 
     .conteudo__texto-apresentacao {
         justify-content: center;
-        width: 100%;
         text-align: justify;
     }
 
