@@ -314,7 +314,7 @@ body {
     }
 
     .conteudo__projetos {
-        width: auto;
+        width: 95%;
         flex-direction: column;
         text-align: justify;
     }
@@ -328,7 +328,6 @@ body {
     .container-projeto {
         width: 100%;
         height: auto;
-        padding: 0 5%;
     }
 
     .landing-page__imagem {
@@ -342,6 +341,11 @@ body {
     .cadastro-de-usuarios__imagem {
         width: 80%;
     }
+
+    .carrinho-de-compras__imagem {
+        width: 100%;
+    }
+
 
     .landing-page {
         text-align: justify;
@@ -357,6 +361,12 @@ body {
         text-align: justify;
         width: 100%;
     }
+
+    .carrinho-de-compras {
+        text-align: justify;
+        width: 100%;
+    }
+
 
     .rodape {
         font-size: 1rem;
