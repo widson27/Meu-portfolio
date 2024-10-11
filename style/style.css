@@ -209,6 +209,7 @@ body {
 }
 
 .projeto-subtitulo {
+    font-size: 1.8rem;
     font-family: var(--font-primaria);
     font-weight: 400;
 }
@@ -226,6 +227,7 @@ body {
     text-align: center;
     width: 45%;
     margin: 10px;
+    text-align: center;
 }
 
 .carrinho-de-compras__imagem {
@@ -414,6 +416,9 @@ body {
         text-align: justify;
     }
 
+    .projeto-subtitulo {
+        text-align: center;
+    }
 
     .rodape {
         font-size: 0.75rem;
