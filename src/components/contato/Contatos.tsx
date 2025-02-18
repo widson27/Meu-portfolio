@@ -4,9 +4,9 @@ import { FaWhatsapp, FaLinkedin } from "react-icons/fa";
 
 function Contatos() {
     return (
-        <div className="w-[800px] mx-auto py-[100px]">
+        <div className="w-[90%] lg:w-[800px] mx-auto py-[100px]">
 
-                <div className="flex justify-evenly items-center gap-10">
+                <div className="flex flex-col md:flex-row md:justify-evenly items-center gap-10">
                     <div className="flex flex-col justify-between items-center gap-4">
                         <div className="flex items-center justify-center w-15 h-15 bg-[#121212] rounded-[50%]">
                             <FaWhatsapp className="w-8 h-8 text-[#14FFEC]" />
