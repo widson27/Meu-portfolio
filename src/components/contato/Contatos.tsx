@@ -14,7 +14,7 @@ function Contatos() {
 
                         <h3 className="font-bold text-xl">WhatsApp</h3>
 
-                        <a href="wa.me/5599988081419" className="text-[#14FFEC]">
+                        <a href="https://wa.me/5599988081419" className="text-[#14FFEC]">
                             (99) 98808-1419
                         </a>
                     </div>
