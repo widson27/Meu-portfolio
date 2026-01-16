@@ -3,7 +3,7 @@ import Contatos from "../contato/Contatos";
 
 function About() {
     return (
-        <section className="w-full py-[100px] h-full flex items-center justify-center gap-2" id="sobre">
+        <section className="w-full py-[150px] my-auto flex items-center justify-center gap-2" id="sobre">
             <div className="max-w-[1200px] mx-auto flex flex-col items-center px-4 md:px-10">
                 <h2 className="font-bold text-3xl text-center" >Sobre Mim</h2>
                 <p className="w-full mt-20 text-lg text-justify">
